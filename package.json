@@ -7,5 +7,10 @@
     "example",
     "heroku"
   ],
+  
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/jane-doe/node-example.git"
+   },
   "author": "Juan"
 }
