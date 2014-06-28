@@ -14,21 +14,8 @@ server.use(restify.bodyParser());
 server.use(restify.CORS());
 server.use(restify.authorizationParser());
 
-server.use(function autenticate(req,res,next){
-	if (req.authorization.basic) {
-		if(req.authorization.basic.username =='juan' &&
-			req.authorization.basic.password == '1234'){
-			return next();
 
-		}
-
-	}
-	return next(new restify.NotAuthorizedError());
-
-
-})
-
-var connection_string = '127.0.0.1:27017/prueba'
+var connection_string = '127.0.0.1/prueba'
 var db = mongojs(connection_string,['prueba']);
 var songs= db.collection("songs");
 
