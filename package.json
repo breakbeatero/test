@@ -1,0 +1,23 @@
+{
+  "name": "breakbeatero",
+  "version": "1.0.0",
+  "description": "Mi App",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breakbeatero/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breakbeatero/test/issues"
+  },
+  "homepage": "https://github.com/breakbeatero/test",
+  "dependencies": {
+    "express": "^4.4.5",
+    "logfmt": "^1.1.2"
+  }
+}
