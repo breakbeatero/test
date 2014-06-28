@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
   "name": "node-example",
   "version": "0.0.0",
@@ -20,3 +21,35 @@
     "url": "https://github.com/breakbeatero/test"
   }
 }
+=======
+{
+  "name": "node-js-sample",
+  "version": "0.1.0",
+  "description": "A sample Node.js app using Express 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breakbeatero/test.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Juan Nuñez",
+  "contributors": [
+    "JMNS"
+  ],
+  "license": "MIT"
+}
+
+>>>>>>> f8501ea206a78c15dcd8ea445f06393fadc703ad
