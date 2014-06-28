@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "breakbeatero",
   "version": "1.0.0",
   "description": "Mi App",
@@ -20,4 +21,15 @@
     "express": "^4.4.5",
     "logfmt": "^1.1.2"
   }
+=======
+  "name": "heroku",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+>>>>>>> 364fa61c4ca40e2aaea79417eb9bd94b94d5e8ec
 }
