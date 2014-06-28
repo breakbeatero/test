@@ -6,7 +6,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-	res.send('holaaaaaaaa' + process.env.PORT);
+	res.send('Servidor corriendo en NodeJS en el puerto ' + process.env.PORT);
 });
 
 var port = Number(process.env.PORT || 5000);
