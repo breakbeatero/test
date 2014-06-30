@@ -22,7 +22,7 @@ app.listen(port, function() {
 });
 
 
-var uri = mongodb://breakbeatero:djjuanmy1@ds049219.mongolab.com:49219/breakbeatero;
+var uri = "mongodb://breakbeatero:djjuanmy1@ds049219.mongolab.com:49219/breakbeatero";
 
 
 
