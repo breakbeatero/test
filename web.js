@@ -3,13 +3,6 @@ var express = require("express");
 var logfmt = require("logfmt");
 var app = express();
 
-
-
-
-
-
-
-
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
@@ -21,6 +14,7 @@ app.listen(port, function() {
   console.log("Listening on " + port);
 });
 
+<<<<<<< HEAD
 
 //var uri = 'mongodb://breakbeatero:djjuanmy1@ds049219.mongolab.com:49219/breakbeatero';
 
@@ -32,3 +26,5 @@ app.listen(port, function() {
 //mongodb.MongoClient.connect(uri, function (err, db) {
 //	res.send('conectado');
 //});
+=======
+>>>>>>> 3475a4759b186703916844c106d828400cde6170
