@@ -22,13 +22,13 @@ app.listen(port, function() {
 });
 
 
-var uri = 'mongodb://breakbeatero:djjuanmy1@ds049219.mongolab.com:49219/breakbeatero';
+//var uri = 'mongodb://breakbeatero:djjuanmy1@ds049219.mongolab.com:49219/breakbeatero';
 
 
 
-var mongodb = require('mongodb');
-var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/mydb'; 
+//var mongodb = require('mongodb');
+//var mongoUri = process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://localhost/mydb'; 
 
-mongodb.MongoClient.connect(uri, function (err, db) {
-	res.send('conectado');
-});
+//mongodb.MongoClient.connect(uri, function (err, db) {
+//	res.send('conectado');
+//});
